@@ -30,6 +30,11 @@ body {
     background-color: #ff5722;
   }
 
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
 
 /**------ABOUT-----------*/
 .about-section {
@@ -37,15 +42,26 @@ body {
   background-color: #f9f9f9;
 }
 
+.about-content-tab {
+  overflow-y: scroll;
+  height: 65%;
+}
+
+
+
 /**------TOPICS---------*/
 .topics-section {
   height: 100vh; /* Full viewport height */
   background-color: #f9f9f9;
 }
-.carousel.slide {
-  width: 40%;
-}
 
+.topic-col {
+  border: #a299a8 solid;
+  border-radius: 20px;
+  height: 480px;
+  margin: 10px;
+  padding: 20px ;
+}
 
 /*--------SKILLS---------*/
 .skills-section {
