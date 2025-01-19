@@ -29,4 +29,68 @@ body {
   .btn:hover {
     background-color: #ff5722;
   }
-  
+
+
+/**------ABOUT-----------*/
+.about-section {
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9;
+}
+
+/**------TOPICS---------*/
+.topics-section {
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9;
+}
+.carousel.slide {
+  width: 40%;
+}
+
+
+/*--------SKILLS---------*/
+.skills-section {
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9;
+}
+
+.col.skill {
+  border-style: groove;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.col.skill ul {
+  list-style-type: none; /* Removes default bullet points */
+  padding: 0;
+}
+
+.col.skill li {
+  display: flex; /* Aligns image and text horizontally */
+  margin-bottom: 10px;
+}
+
+.col.skill .icon {
+  width: 20px; /* Adjust icon size */
+  height: 20px; /* Adjust icon size */
+  margin-right: 10px; /* Spacing between image and text */
+}
+
+/*------PROJECTS---------*/
+.projects-section {
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9;
+}
+
+.col.project-item {
+  border-radius: 10px;
+  border-style: groove;
+  background-color: #f9f9f9;
+  margin: 10px;
+}
+
+/*------CONTACT---------*/
+.contact-section {
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9;
+}
