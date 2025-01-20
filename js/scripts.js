@@ -22,30 +22,8 @@ loadContent("footer", "components/footer.html");
 loadContent("topics", "components/topics.html");
 
 
-// ----------ABOUT------------
-const navLinks = document.querySelectorAll(".nav-link.about");
-const contents = document.querySelectorAll(".about-content-tab");
-console.log(contents)
-
-// Add a click event listener to each nav-link
-navLinks.forEach((link, index, array) => {
-
-  link.addEventListener("click", (e) => {
-      e.preventDefault(); // Prevent default behavior of the link
-
-      // Remove 'active' class from all nav-links
-      navLinks.forEach((item) => item.classList.remove("active"));
-      contents.forEach((content) => content.classList.remove("live"))
-      //images.forEach((image)=> image.classList.remove("live"))
-
-      // Add 'active' class to the clicked link
-      link.classList.add("active");
-      contents[index].classList.add("live");
-      //images[index].classList.add("live")
-  });
-});
-
-
 //------------ TOPICS
-
-
+function openNotion(url) {
+  // Replace with the URL you want to open
+  window.open(url, "_blank");
+}
