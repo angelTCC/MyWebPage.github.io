@@ -36,12 +36,12 @@ h1 {
 }
 
 
-/**------ABOUT-----------*/
+/*------ABOUT-----------
 .about-section {
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   background-color: #f9f9f9;
 }
-
+*/
 .about-content-tab {
   overflow-y: scroll;
   height: 65%;
@@ -49,11 +49,12 @@ h1 {
 
 
 
-/**------TOPICS---------*/
+/*------TOPICS---------
 .topics-section {
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   background-color: #f9f9f9;
 }
+*/
 
 .topic-col {
   border: #a299a8 solid;
@@ -63,11 +64,11 @@ h1 {
   padding: 20px ;
 }
 
-/*--------SKILLS---------*/
+/*--------SKILLS---------
 .skills-section {
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   background-color: #f9f9f9;
-}
+}*/
 
 .col.skill {
   border-style: groove;
@@ -92,11 +93,11 @@ h1 {
   margin-right: 10px; /* Spacing between image and text */
 }
 
-/*------PROJECTS---------*/
+/*------PROJECTS---------
 .projects-section {
-  height: 100vh; /* Full viewport height */
+  height: 100vh; /* Full viewport height 
   background-color: #f9f9f9;
-}
+}*/
 
 .col.project-item {
   border-radius: 10px;
