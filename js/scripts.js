@@ -21,6 +21,8 @@ loadContent("contact", "components/contact.html");
 loadContent("footer", "components/footer.html");
 loadContent("topics", "components/topics.html");
 loadContent("education", "components/education.html");
+loadContent("education", "components/learning.html");
+
 
 
 //------------ TOPICS

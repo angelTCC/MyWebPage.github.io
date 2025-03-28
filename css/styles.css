@@ -111,3 +111,12 @@ h1 {
   height: 100vh; /* Full viewport height */
   background-color: #f9f9f9;
 }
+
+
+/*------LEARNING------------*/
+.col.learn {
+  border-radius: 10px;
+  border-style: groove;
+  background-color: #f9f9f9;
+  margin: 10px;
+}
