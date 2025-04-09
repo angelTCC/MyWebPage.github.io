@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin-top: 20;
     font-family: Arial, sans-serif;
     color: #333;
   }
@@ -8,11 +8,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Full viewport height */
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    color: white;
+    height: 105vh; /* Full viewport height */
+    background: linear-gradient(to right, #8fe2a4, #47db68);
+    color: rgb(22, 22, 22);
     text-align: center;
-    padding: 0 20px;
+    padding: 0 0px;
   }
   
   .btn {
@@ -32,37 +32,25 @@ body {
 
 h1 {
   text-align: center;
-  padding: 20px;
+  padding: 50px;
 }
 
 
-/*------ABOUT-----------
-.about-section {
-  height: 100vh; 
+/*------ABOUT-----------*/
+.about-img{
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+}
+
+/*---EDUCATION-----*/
+.col-education {
+  border-radius: 10px;
+  border-style: groove;
   background-color: #f9f9f9;
-}
-*/
-.about-content-tab {
-  overflow-y: scroll;
-  height: 65%;
-}
-
-
-
-/*------TOPICS---------
-.topics-section {
-  height: 100vh; 
-  background-color: #f9f9f9;
-}
-*/
-
-.topic-col {
-  border: #a299a8 solid;
-  border-radius: 20px;
-  height: 480px;
   margin: 10px;
-  padding: 20px ;
+  padding: 10px;
 }
+
 
 /*--------SKILLS---------
 .skills-section {
@@ -104,12 +92,6 @@ h1 {
   border-style: groove;
   background-color: #f9f9f9;
   margin: 10px;
-}
-
-/*------CONTACT---------*/
-.contact-section {
-  height: 100vh; /* Full viewport height */
-  background-color: #f9f9f9;
 }
 
 

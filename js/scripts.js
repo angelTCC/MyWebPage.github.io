@@ -21,8 +21,18 @@ loadContent("contact", "components/contact.html");
 loadContent("footer", "components/footer.html");
 loadContent("topics", "components/topics.html");
 loadContent("education", "components/education.html");
-loadContent("education", "components/learning.html");
+loadContent("learning", "components/learning.html");
 
+window.onload = function() {
+  const hero = document.querySelector('.hero');
+  const navbar = document.querySelector('.navbar');
+  
+  // Obtener la altura de la barra de navegación
+  const navbarHeight = navbar.offsetHeight;
+  
+  // Establecer la altura de .hero al 100vh menos la altura de la navbar
+  hero.style.height = `calc(110vh)`;
+};
 
 
 //------------ TOPICS
