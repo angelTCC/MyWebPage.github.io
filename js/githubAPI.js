@@ -28,7 +28,7 @@ const cachedRepos = localStorage.getItem(CACHE_KEY);
 const cachedTime = localStorage.getItem(CACHE_TIMESTAMP_KEY);
 const now = Date.now();
 
-if (cachedRepos && cachedTime && (now - cachedTime < CACHE_DURATION)) {
+if (cachedRepos){// && cachedTime && (now - cachedTime < CACHE_DURATION)) {
   // Usar datos en caché
   renderRepos(JSON.parse(cachedRepos));
 } else {
