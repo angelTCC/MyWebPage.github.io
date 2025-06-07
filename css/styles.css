@@ -93,10 +93,8 @@ h1 {
   border-radius: 10px;
   border-style: groove;
   background-color: #f9f9f9;
-  margin-bottom: 20px; /* Add space below each column (between rows) */
-  padding-left: 10px;  /* Adds space on the left */
-  padding-right: 10px; /* Adds space on the right */
-  padding-top: 12px;
+  margin: 20px; /* Add space below each column (between rows) */
+  padding: 30px;  /* Adds space on the left */
   font-size: 14px;
 }
 

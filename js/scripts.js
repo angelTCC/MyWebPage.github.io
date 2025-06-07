@@ -16,7 +16,6 @@ function loadContent(id, file, callback) {
 loadContent("about", "components/about.html");
 loadContent("header", "components/header.html");
 loadContent("skills", "components/skills.html");
-loadContent("projects", "components/projects.html");
 loadContent("contact", "components/contact.html");
 loadContent("footer", "components/footer.html");
 loadContent("topics", "components/topics.html");
