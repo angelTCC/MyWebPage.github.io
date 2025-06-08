@@ -21,6 +21,7 @@ loadContent("footer", "components/footer.html");
 loadContent("topics", "components/topics.html");
 loadContent("education", "components/education.html");
 loadContent("learning", "components/learning.html");
+loadContent("project", "components/projects.html");
 
 window.onload = function() {
   const hero = document.querySelector('.hero');
